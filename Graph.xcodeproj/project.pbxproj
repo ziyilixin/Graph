@@ -15,6 +15,7 @@
 		4190AA0927381E5700BB6E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4190AA0727381E5700BB6E7F /* LaunchScreen.storyboard */; };
 		4190AA0C27381E5700BB6E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4190AA0B27381E5700BB6E7F /* main.m */; };
 		4190AA142738B20400BB6E7F /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4190AA132738B20400BB6E7F /* BezierCurveView.m */; };
+		420FFA5B27BFCF8300367194 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420FFA5A27BFCF8300367194 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4190AA0B27381E5700BB6E7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4190AA122738B20400BB6E7F /* BezierCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
 		4190AA132738B20400BB6E7F /* BezierCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		420FFA5A27BFCF8300367194 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		4190A9F827381E5400BB6E7F /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				420FFA5927BFCF1700367194 /* Picture */,
 				4190A9F927381E5400BB6E7F /* AppDelegate.h */,
 				4190A9FA27381E5400BB6E7F /* AppDelegate.m */,
 				4190A9FC27381E5400BB6E7F /* SceneDelegate.h */,
@@ -79,6 +82,14 @@
 				4190AA0B27381E5700BB6E7F /* main.m */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		420FFA5927BFCF1700367194 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				420FFA5A27BFCF8300367194 /* 1.jpg */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4190AA0927381E5700BB6E7F /* LaunchScreen.storyboard in Resources */,
+				420FFA5B27BFCF8300367194 /* 1.jpg in Resources */,
 				4190AA0627381E5700BB6E7F /* Assets.xcassets in Resources */,
 				4190AA0427381E5400BB6E7F /* Main.storyboard in Resources */,
 			);
